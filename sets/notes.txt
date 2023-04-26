@@ -1,0 +1,58 @@
+
+========26/04/2023=========
+This makes alsmost no sense to me.
+
+In Mathematics, A map (or a function) is a relation on sets.
+(I will not say - "is an implementation of sets" as functions are relations and relations are ordered sets
+and as much convincing it seems to see them as similar, 
+it is counter-intuitively better to see relations and sets as two different mathematical entities
+Such as, sets are collection of objects, and relations are connections between those objects).
+
+In Computer Science, A set is an implementation of a map. Ironic.
+Well, it is not; looking further, as much obfuscations have enshrouded these concepts. 
+They are unanimously stemming from the very background Mathematics posits for them.
+Sets "are" the rudimentary DS that get reflected in the Maps implementation.
+
+There is this notion of "Keys, Hashes and Buckets"; 
+which maybe intermediary to the implementation these basic concepts.
+A Map DS is stored as such, a set of "keys" are mapped onto a set of "values".
+
+Let's think of sets as independent and rudimentary to maps.
+------------------------------------------------------------------------------------------------------------
+
+I will implement a set by using a "hash table of static bit array";
+For my purpose, I want to map each "char"(arg) to its "ASCII int" (index) store as a "bit" (value).
+                            char ---hash---> ASCII int [32,126] to index [0,95] --> bit (belongs) [0,1] 
+
+To summarize, 
+1. "Hashing" (or "Hashmap" etc) is a "technique" and not an ADT.
+    In hashing, we have a "hash function" to map an "object" to an "index" [0 to n]; 
+    [Hash Table] this index (if corresponds to an array) could be used to quickly access elements of the array.  
+    [Hash Node] if you want to implement through lists or a hash tree or a hash graph, IDK.
+2. How you design depends on "what you want" and "what you have". 
+    In the case, I want a "set" as in math; I have "C++" with its attributes or the computer.
+    It may feel very intuitive to perceive a set in you head as you do;
+    but doesn't necessarily equate to an implementation in the computer as such.
+
+ 
+//////CODE//////////
+#define SIZE 5
+#define DATATYPE char
+
+class Set {
+public :
+    Set() {}
+    ~Set() {}
+    bool in(DATATYPE o) {
+        //if (!hash(o)) insert  
+    }
+    bool notIn(DATATYPE o) {}
+    bool contains() {}
+private : 
+    DATATYPE array[SIZE];
+
+    int hash(DATATYPE o) {
+        return 0;
+    }
+};
+///////////////////
