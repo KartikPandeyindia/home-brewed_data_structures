@@ -1,0 +1,27 @@
+27/04/23
+I somehow feel a need to learn bit manipulation.
+
+[DS] Bits could be a great way to tightly pack "switching" info {ON, OFF} or boolean values.
+[Computing] Bits could also be tweaked to evaluate individual ints or chars.
+
+The best way to access and store bits is to use 'ints'.
+    Because there is a certain wordsize the compiler or the computer is comfortable in dealing with.
+Each 'int' is (4) 'bytes' = (32) 'bits'.
+Thus, for and integer_array[size] ; the number of bits available are (size * 32);
+
+----Bit-wise Operations------- 
+NOT     (~)
+AND     (&)
+OR      (|)
+XOR     (^)
+SHIFTs  (>> , <<)
+
+--------Interesting Data Structures of bits [DS]--------
+1. bit array
+2. bit field 
+3. bit map
+
+-----------------------------------------------
+~ All integral data types (char, int, long..) are capable of representing bits.
+~ Unsigned int are better used for bit manipulation.
+~ 
