@@ -1,3 +1,5 @@
 #Ignore folders 
 /linux
 /.vscode
+#Ignore Driver function
+Main.cpp
