@@ -24,4 +24,29 @@ SHIFTs  (>> , <<)
 -----------------------------------------------
 ~ All integral data types (char, int, long..) are capable of representing bits.
 ~ Unsigned int are better used for bit manipulation.
-~ 
+
+28/04/23
+Bit - a binary value {0,1}
+Byte - the smallest addressable unit of memory [8 bits = 1 byte]
+Word - the size of the register or the largest chunk of bits with which processor can work with [ 1 word = depends on processor ]
+
+"The exact number of bytes for some data types depends on how the program is compiled.
+To avoid the vagaries of relying on 'typical' sizes and different compiler settings, 
+ISO C99 introduced a class of data types where the data sizes are fixed regardless of compiler and machine settings" 
+~CSAPP
+Referring to = { int32_t, int64_t, ... }
+
+There are some caveats associated with bit operations, which you need to consider before-hand. 
+If completely unsure and impatient, use u_int32_t blindly. 
+[1] Bit operations work on any integral type (int, char, float, long...). 
+but these integral types convert to int by the compiler, use of int is for clarity. 
+[2] Shift operations work differently on signed and unsigned. Unsigned is more consistent.
+[3] Data types sizes depend on machine the code is compiled, use fixed size for portable or word size for speed.
+
+A reveal-bit function is needed to see what is under the hood.
+I donn't know how to access each indivisual bit from the integer.
+~ I as the programmer has access only to integers (limited by prog lang)
+~ The computer has access only to bytes (memory is byte-addressed)
+
+! Never mix arithmatic operations (+,-,*,/,%) with bit operations (&,|,^,~)
+    "ints 'represent' bits" but "ints 'are not equal to' bits".
