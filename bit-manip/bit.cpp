@@ -48,6 +48,10 @@ int main () {
         //flipping a bit at pos [XOR]
         barr[pos / w] ^= (1 << (pos % w));
         reveal_bits(barr[pos / w]); 
+
+        //checking a bit
+        if ( (barr[pos / w] & (1 << (pos % w))) != 0) 
+            std::cout << "yes";
         
 
     return 0;
