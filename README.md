@@ -31,3 +31,7 @@ I have contemplated on the idea of coding as you think. Is it possible? I have a
 when I did mathematics, all the topological, analysis and algebra concepts. Can I be able to work them out as naturally as possible. Because I believe using these naturally will only invoke their effect in actuality.
 I wonder.
 
+# 30/09/23
+When I said home-brewed; I didn't meant to create my own new DS because I can't but I'll try to sketch out the generic or unique ones or whatever that piques my interest.
+Moving this way forward, I feel why extend this idea to Algorithms? I am doing nothing out of new just remaking things. This is very possible, fun and useful. I always wondered there would be (as there are) more interesting algorithms other than the standard one of sorting and searching taught to us. I am specially interested in Signal Processing, Time Series and Neural Network one. They are specially interesting to me.
+However, I'll start with the standard ones first.
