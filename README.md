@@ -35,3 +35,6 @@ I wonder.
 When I said home-brewed; I didn't mean to create my own new DS because I can't but I'll try to sketch out the generic or unique ones or whatever that piques my interest.
 Moving this way forward, I feel why not extend this idea to Algorithms? I am doing nothing out of new just remaking things. This is very possible, fun and useful. I always wondered there would be (as there are) more interesting algorithms other than the standard one of sorting and searching taught to us. I am specially interested in Signal Processing, Time Series and Neural Network one. They are specially interesting to me.
 However, I'll start with the standard ones first.
+
+### 07/10/23
+I should still learn to write leetcode problems in C++. Because it just happens to be more popular; I would benefit more from learning a shared language than one that is foreign. I am very certain of one thing, that you write code for others.
