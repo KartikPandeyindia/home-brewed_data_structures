@@ -12,7 +12,7 @@ Sometimes, a best fit given up over STL (C++)
 I halted on my work here for a very long time.
 Anyway, I feel I should continue (or restart) my work here in C.
 Why the change in language? C++ is fine as well, but I want two things.
-Firstly, C is a primitive language than C and without OOPs and classes.
+Firstly, C is a primitive language than C++ and without OOPs and classes.
 This will make sure that I am focusing only on learning the DS and Algorithms.
 Moreover, the absence of a robust STL and other complications also enforces me to make all things again.
 I would be coerced into the grunt work.
