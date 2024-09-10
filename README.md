@@ -38,3 +38,18 @@ However, I'll start with the standard ones first.
 
 ### 07/10/23
 I should still learn to write leetcode problems in C++. Because it just happens to be more popular; I would benefit more from learning a shared language than one that is foreign. I am very certain of one thing, that you write code for others.
+
+### 10/10/24
+A long break, It has been a year since I last updated this. 
+1. I always wanted to learn DSA, but I believe I was intimidated by the challenge it posed. I thought, I must have something missing like a background in more abstract mathematics or maybe a refresher in programming language.
+But, now that I am certain, that is not the case. 
+I know now that I have to leverage a peculiar "intuitive jump" in training myself some of these out-of-reach concepts, and not get dissuaded by the challenged. 
+2. Refering to the note on 22/09/23. I know now, how I could be able to evoke all the concept fluently and concurrently in my mindspace. I am positive on my abilities to do that now. To say more about how, it that these concepts exist in our mind as mathematical wrangled abstract sets, which have been beautifully wrapped and presented by educative material. To get hands-on with them, break apart and rebuild them, tinker and mingle them, manipulate, transform and reinterpret them... is how we derive more command and expertise over these concepts. This takes a long time with no end criteria.  
+
+One more thing, I don't know, how I was pursuing this study earlier. However, I would like to disclose that from now here too. It just helps me get the perspective right after a long break like this.
+
+* I am following an NPTEL course [link](https://youtube.com/playlist?list=PLyqSpQzTE6M9DKhN7z2fOpKTJWu-639_P&feature=shared). 
+* I stan this material online [link](https://cp-algorithms.com/index.html)
+* What I want to religiously follow is a textbook [link](https://www.cs.princeton.edu/~wayne/kleinberg-tardos/) 
+* And this culminates into practicing problems at Leetcode [link](https://leetcode.com/studyplan/top-interview-150/)
+
